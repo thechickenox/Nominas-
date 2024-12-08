@@ -1,5 +1,12 @@
 # nominas
 
+This project is about an employee vacation and payroll management system
+
+Application screenshots.
+<img width="958" alt="Dasboard" src="https://github.com/user-attachments/assets/b0461267-9f1c-40b5-adc5-1c8fa7c9c204">
+<img width="957" alt="Login" src="https://github.com/user-attachments/assets/25a77f4c-7759-4aab-8dcb-57d16f0ce07e">
+<img width="960" alt="Empleados" src="https://github.com/user-attachments/assets/981b4357-eef4-471b-8a0a-d90c4936bdd4">
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
