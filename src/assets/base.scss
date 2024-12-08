@@ -1,0 +1,105 @@
+.container {
+    padding-inline: 2.3rem;
+    background: none;
+    width: 100%;
+    margin-top: 2.5rem;
+    height: 100%;
+}
+:root{
+    --primary-color: #ff735c;
+    --primary-low-color: #FF735C99;
+}
+.container {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+
+        .add-btn {
+            height: 100%;
+
+            button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #ff735c;
+                border: solid 1px var(--primary-color);
+                color: #fff;
+                height: 100%;
+                padding: 0.8rem;
+                border-radius: 1rem;
+                width: fit-content;
+                gap: .5rem;
+                p{
+                    white-space: nowrap;
+                    margin: 0;
+                    font-size: .8rem;
+                }
+                ion-icon {
+                    font-size: 1.3rem;
+                }
+                &:hover{
+                    background-color: transparent;
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+
+    .search-container {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 1rem;
+        border: none;
+        padding: 0.4rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            padding: 0.4rem 0.6rem;
+            width: 100%;
+
+            &:focus-visible {
+                outline: none;
+            }
+        }
+    }
+
+    .table-container {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #fff;
+        border-radius: 1rem;
+
+        .table {
+            width: 100%;
+        }
+    }
+
+    .actions {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 0.4rem;
+        justify-content: center;
+
+        .btn-delete {
+            border: none;
+        }
+    }
+
+    v-icon {
+        color: #000;
+    }
+}
+
+.colored-toast{
+    background-color: #EF665B !important;
+    color: #71192F;
+}
+.colored-toast.swal2-icon-success{
+    color: #71192F;
+}
